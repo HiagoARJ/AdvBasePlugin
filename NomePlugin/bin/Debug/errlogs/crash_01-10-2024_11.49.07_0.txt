@@ -1,0 +1,13 @@
+--------AdvancedBot v2.7.6.1 built on: 23/11/2019 00:53:59--------
+Stacktrace: 
+
+System.IO.DirectoryNotFoundException: Não foi possível localizar uma parte do caminho 'D:\Advanced-Plugins\Plugin\NomePlugin\bin\Debug\languages\en.lang'.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   em System.IO.StreamReader..ctor(String path, Encoding encoding)
+   em AdvancedBot.Translation.getListFromForm(Form form)
+   em AdvancedBot.Translation.setup(Form form)
+   em AdvancedBot.Main..ctor()
+   em AdvancedBot.Program.Main()
