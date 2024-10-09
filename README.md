@@ -1,5 +1,5 @@
 # AdvBasePlugin
-Projeto para Criação de Plugin do AdvancedBot.
+Projeto para Criação de Plugin do AdvancedBot acima da Versão 2.7+.
 
 • Local para verificar as funções, váriaveis e demais informações para serem utilizadas no Plugin.
 
